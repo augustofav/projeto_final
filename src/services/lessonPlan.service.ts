@@ -73,6 +73,7 @@ async function getLessonPlan(id: string): Promise<string> {
     }
 }
 
+
 export const lessonPlanService = {
     createLessonPlan: (data: string, inicio: string, fim: string, conteudoFormativo: string, modoDeEnsino: string, recursosDidaticos: string) => 
         createLessonPlan(data, inicio, fim, conteudoFormativo, modoDeEnsino, recursosDidaticos),
