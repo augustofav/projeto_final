@@ -1,6 +1,6 @@
 // repo/ModeloBD.ts
 import { ModelEvento } from '../models/Event';
-import { ModelParticipante } from '../serviceProfessor';
+import { ModelParticipante } from '../services/';
 
 export class ModeloBD {
   private eventos: ModelEvento[];
